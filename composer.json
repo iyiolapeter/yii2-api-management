@@ -1,0 +1,22 @@
+{
+    "name": "iyiolapeter/yii2-api-mananagement",
+    "description": "Extension to manage yii2 rest api authentication & authorization",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Iyiola",
+            "email": "iyiolapeter@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yii2mod/yii2-rbac": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pso\\apimanagement\\": ""
+        }
+    }
+}
